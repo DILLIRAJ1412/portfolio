@@ -860,7 +860,7 @@ section{
     padding: 10px;
   }
   .heading1 {
-    margin: 40px;
+    margin: 50px;
     font-size: 24px;
   }
 
@@ -869,7 +869,7 @@ section{
     margin-bottom: 0px;
   }
   .radial-bars {
-    margin: 20px;
+    margin: 50px;
     
   }
 
@@ -880,8 +880,8 @@ section{
   }
 
   .row {
-    width: 400px;
-    height: 400px;
+    width: 370px;
+    height: 370px;
     margin-left: 0;
     padding: 20px;
     
@@ -894,12 +894,12 @@ section{
   }
 
   .contact-text h2 {
-    font-size: 30px;
+    font-size: 40px;
     margin: 0px;
     
   }
   .contact-text p{
-    width: 350px;
+    width: 370px;
   }
   .contact-list{
     margin-top: 20px;
