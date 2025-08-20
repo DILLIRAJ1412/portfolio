@@ -865,11 +865,11 @@ section{
   }
 
   .Technical-bars {
-    margin-left:20px;
+    margin-left:40px;
     margin-bottom: 0px;
   }
   .radial-bars {
-    margin: 10px;
+    margin: 20px;
     
   }
 
@@ -880,8 +880,8 @@ section{
   }
 
   .row {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     margin-left: 0;
     padding: 20px;
     
@@ -894,12 +894,12 @@ section{
   }
 
   .contact-text h2 {
-    font-size: 45px;
+    font-size: 30px;
     margin: 0px;
     
   }
   .contact-text p{
-    width: 500px;
+    width: 350px;
   }
   .contact-list{
     margin-top: 20px;
