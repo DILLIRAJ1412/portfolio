@@ -777,3 +777,252 @@ section{
     }
 
 }
+
+/* ------------------ Responsive Design ------------------ */
+
+/* Mobile devices (up to 600px) */
+@media (max-width: 600px) 
+{
+    
+  .header {
+    padding: 10px 5%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+  }
+
+  .navbar a {
+    margin: 15px ;
+    font-size: 18px;
+  }
+
+  .home {
+    flex-direction: column;
+    padding: 100px 5% 0;
+    text-align: center;
+    height: auto;
+  }
+
+  .home-content h1 {
+    font-size: 30px;
+  }
+
+  .home-content h3 {
+    font-size: 22px;
+  }
+
+  .home-content p {
+    font-size: 16px;
+  }
+
+  .dilli {
+    position: static;
+    margin-top: 30px;
+    width: 150px;
+    height: 100px;
+    align-self: center;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    padding: 0 5%;
+  }
+
+  .about-img img {
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  .about-text h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .services-list {
+    grid-template-columns: 1fr;
+    padding: 0 5%;
+  }
+
+  .container1 {
+    margin-left:0px;
+    padding: 0px;
+    width: 100%;
+    
+  }
+  .sub-title{
+    padding: 10px;
+  }
+  .heading1 {
+    margin: 40px;
+    font-size: 24px;
+  }
+
+  .Technical-bars {
+    margin-left:20px;
+    margin-bottom: 0px;
+  }
+  .radial-bars {
+    margin: 10px;
+    
+  }
+
+  .main-text h2 {
+    font-size: 40px;
+    margin-left: 0px;
+    padding: 10px 10px;
+  }
+
+  .row {
+    width: 550px;
+    height: 550px;
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .contact {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 50px;
+  }
+
+  .contact-text h2 {
+    font-size: 45px;
+    margin: 0px;
+    
+  }
+  .contact-text p{
+    width: 500px;
+  }
+  .contact-list{
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  .contact-icons{
+     padding:0px;
+  }
+  .contact-form{
+    width: 500px;
+  }
+  
+  .contact-form form input,
+  .contact-form textarea {
+    width: 100%;
+  }
+
+  .last-text p {
+    font-size: 16px;
+  }
+
+  .top {
+    right: 1rem;
+    bottom: 1rem;
+  }
+}
+
+/* Tablets (600px to 991px) */
+@media (min-width: 601px) and (max-width: 991px) {
+  .header {
+    padding: 15px 5%;
+  }
+
+  .navbar a {
+    font-size: 20px;
+    margin-left: 20px;
+    
+  }
+
+  .home {
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 5% 0;
+    height: auto;
+  }
+
+  .home-content h1 {
+    font-size: 40px;
+  }
+
+  .home-content h3 {
+    font-size: 24px;
+  }
+
+  .dilli {
+    position: static;
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .about-img img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .main-text h2 {
+    font-size: 40px;
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .row {
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+  }
+
+  .container1 {
+    padding: 40px;
+    margin-left:0px;
+    display: flex;
+    position: relative;
+
+  }
+
+  .Technical-bars,
+  .radian-bars {
+    margin-left: 0;
+  }
+
+  .contact {
+    grid-template-columns: 1fr;
+    padding: 0 5%;
+  }
+
+  .contact-text h2 {
+    font-size: 40px;
+  }
+}
+
+/* Large screens (992px and up) */
+@media (min-width: 992px) {
+  /* You can customize this section if needed for desktop-wide screens */
+}
+
+/* Mobile View (up to 600px) */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: row;
+    
+  }
+
+  .home-content h1 {
+    font-size: 24px;
+  }
+
+  .dilli {
+    width: 100%;
+    height: 400px;
+  }
+}
