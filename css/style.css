@@ -876,12 +876,12 @@ section{
   .main-text h2 {
     font-size: 40px;
     margin-left: 0px;
-    padding: 10px 10px;
+    
   }
 
   .row {
-    width: 550px;
-    height: 550px;
+    height: auto;
+    width: 100%;
     margin-left: 0;
     padding: 20px;
   }
@@ -908,7 +908,10 @@ section{
      padding:0px;
   }
   .contact-form{
-    width: 500px;
+     height: auto;
+    width: 100%;
+    
+    
   }
   
   .contact-form form input,
