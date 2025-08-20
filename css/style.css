@@ -797,7 +797,7 @@ section{
   }
 
   .navbar a {
-    margin: 15px ;
+    margin: 10px ;
     font-size: 18px;
   }
 
@@ -880,10 +880,9 @@ section{
   }
 
   .row {
-    width: 550px;
-    height: 550px;
-    margin-left: 0;
-    padding: 20px;
+    
+    grid-template-columns: 1fr;
+    padding: 0 5%;
   }
 
   .contact {
