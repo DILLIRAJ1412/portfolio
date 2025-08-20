@@ -797,7 +797,7 @@ section{
   }
 
   .navbar a {
-    margin:0px ;
+    margin:5px ;
     font-size: 15px;
   }
 
@@ -860,16 +860,16 @@ section{
     padding: 10px;
   }
   .heading1 {
-    margin:40px;
+    margin:45px;
     font-size: 24px;
   }
 
   .Technical-bars {
-    margin-left:20px;
+    margin-left:25px;
     margin-bottom: 0px;
   }
   .radial-bars {
-    margin:10px;
+    margin:8px;
     
   }
 
@@ -910,7 +910,7 @@ section{
      padding:0px;
   }
   .contact-form{
-    width: 360px;
+    width: 350px;
   }
   
   .contact-form form input,
