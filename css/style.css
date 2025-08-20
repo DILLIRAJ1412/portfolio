@@ -781,7 +781,7 @@ section{
 /* ------------------ Responsive Design ------------------ */
 
 /* Mobile devices (up to 600px) */
-@media (max-width: 600px) 
+@media (max-width: 780px) 
 {
     
   .header {
@@ -927,7 +927,7 @@ section{
 }
 
 /* Tablets (600px to 991px) */
-@media (min-width: 601px) and (max-width: 991px) {
+@media (min-width: 780px) and (max-width: 1024px) {
   .header {
     padding: 15px 5%;
   }
