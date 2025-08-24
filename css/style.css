@@ -720,17 +720,6 @@ section{
     padding: 5px;
     border-radius: 0.5rem;
 }
-
-
-
-
-
-
-
-
-
-
-
     
 
 @keyframes slideRight{
@@ -744,7 +733,7 @@ section{
     }
 
 }
-@keyframes slideLeft{
+@keyfraes slideLeft{
     0%{
         transform: translatex(100px);
         opacity: 0;
@@ -890,8 +879,8 @@ section{
    
   .layer h1{
     color: #000;
-    font-size: 19px;
-    font-weight: 350;
+    font-size: 20px;
+    font-weight: 400;
     margin-bottom: 5px;
 }
 .layer h5{
@@ -912,7 +901,10 @@ section{
     margin-bottom: 5px;
 
 }
-
+.row:hover img{
+    transform: scale(0.5);
+    
+}
 
   .contact {
     grid-template-columns: 1fr;
