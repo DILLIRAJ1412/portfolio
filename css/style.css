@@ -887,7 +887,9 @@ section{
     padding: 20px;
     
   }
-  
+  .row:hover .layer{
+    height: 50%;
+}
 
   .contact {
     grid-template-columns: 1fr;
