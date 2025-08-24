@@ -900,8 +900,6 @@ section{
     line-height: 1.2;
     margin-bottom: 5px;
 
-}.row:hover img{
-    
 }
   .contact {
     grid-template-columns: 1fr;
