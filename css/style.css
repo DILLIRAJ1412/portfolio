@@ -887,9 +887,9 @@ section{
     padding: 20px;
     
   }
-  .row:hover .layer{
-    height: 50%;
-}
+  .layer h1 h5 p .spanh5 i{
+    padding: 20px;
+  } 
 
   .contact {
     grid-template-columns: 1fr;
