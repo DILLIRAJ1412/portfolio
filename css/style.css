@@ -900,12 +900,9 @@ section{
     line-height: 1.2;
     margin-bottom: 5px;
 
-}
-.row:hover img{
-    transform: scale(0.5);
+}.row:hover img{
     
 }
-
   .contact {
     grid-template-columns: 1fr;
     gap: 2rem;
