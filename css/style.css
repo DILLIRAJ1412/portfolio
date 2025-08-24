@@ -860,17 +860,17 @@ section{
     padding: 10px;
   }
   .heading1 {
-    margin:50px;
-    margin-left: 20px;
+    margin:30px;
+    margin-left:50px;
     font-size: 24px;
   }
 
   .Technical-bars {
-    margin-left:100px;
+    margin-left:70px;
     margin-bottom: 0px;
   }
   .radial-bars {
-    margin:50px;
+    margin:40px;
     
   }
 
